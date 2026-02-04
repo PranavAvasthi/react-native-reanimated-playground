@@ -6,6 +6,7 @@ export default function RootLayout() {
   return (
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="animations" options={{ headerShown: false }} />
       </Stack>
   );
 }
