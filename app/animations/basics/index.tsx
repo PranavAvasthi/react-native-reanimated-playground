@@ -1,3 +1,4 @@
+import { ROUTES } from "@/constants/routes";
 import { Ionicons } from "@expo/vector-icons";
 import { Route, useRouter } from "expo-router";
 import React from "react";
@@ -8,25 +9,25 @@ const DEMOS = [
     id: "translate",
     title: "Translate",
     description: "Move elements with translateX and translateY",
-    path: "/animations/basics/translate",
+    path: ROUTES.ANIMATIONS.BASICS.TRANSLATE,
   },
   {
     id: "opacity",
     title: "Opacity",
     description: "Fade in and out with opacity animations",
-    path: "/animations/basics/opacity",
+    path: ROUTES.ANIMATIONS.BASICS.OPACITY,
   },
   {
     id: "scale-rotate",
     title: "Scale & Rotate",
     description: "Scale and rotate transforms",
-    path: "/animations/basics/scale-rotate",
+    path: ROUTES.ANIMATIONS.BASICS.SCALE_ROTATE,
   },
   {
     id: "multiple-transforms",
     title: "Multiple Transforms",
     description: "Combine multiple transforms together",
-    path: "/animations/basics/multiple-transforms",
+    path: ROUTES.ANIMATIONS.BASICS.MULTIPLE_TRANSFORMS,
   },
 ];
 
@@ -52,7 +53,7 @@ export default function BasicsScreen() {
             <TouchableOpacity
               key={demo.id}
               activeOpacity={0.7}
-              onPress={() => router.push(demo.path as Route)}
+              onPress={() => router.navigate(demo.path as Route)}
               className="overflow-hidden rounded-2xl shadow-sm"
               style={{
                 shadowColor: "#000",

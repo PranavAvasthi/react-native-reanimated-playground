@@ -1,3 +1,4 @@
+import { ROUTES } from "@/constants/routes";
 import { Ionicons } from "@expo/vector-icons";
 import { Route, useRouter } from "expo-router";
 import React from "react";
@@ -8,7 +9,7 @@ const SECTIONS = [
     id: "basics",
     title: "Basics",
     description: "Fundamental animation concepts",
-    path: "/animations/basics",
+    path: ROUTES.ANIMATIONS.BASICS.INDEX,
   },
 ];
 
@@ -49,7 +50,7 @@ const App = () => {
             <TouchableOpacity
               key={section.id}
               activeOpacity={0.7}
-              onPress={() => router.push(section.path as Route)}
+              onPress={() => router.navigate(section.path as Route)}
               className="overflow-hidden rounded-2xl shadow-sm"
               style={{
                 shadowColor: "#000",
