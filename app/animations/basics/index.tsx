@@ -16,6 +16,12 @@ const DEMOS = [
     description: "Fade in and out with opacity animations",
     path: "/animations/basics/opacity",
   },
+  {
+    id: "scale-rotate",
+    title: "Scale & Rotate",
+    description: "Scale and rotate transforms",
+    path: "/animations/basics/scale-rotate",
+  },
 ];
 
 export default function BasicsScreen() {
