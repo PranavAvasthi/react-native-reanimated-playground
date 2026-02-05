@@ -10,6 +10,12 @@ const DEMOS = [
     description: "Move elements with translateX and translateY",
     path: "/animations/basics/translate",
   },
+  {
+    id: "opacity",
+    title: "Opacity",
+    description: "Fade in and out with opacity animations",
+    path: "/animations/basics/opacity",
+  },
 ];
 
 export default function BasicsScreen() {
