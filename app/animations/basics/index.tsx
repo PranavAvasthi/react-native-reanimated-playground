@@ -22,6 +22,12 @@ const DEMOS = [
     description: "Scale and rotate transforms",
     path: "/animations/basics/scale-rotate",
   },
+  {
+    id: "multiple-transforms",
+    title: "Multiple Transforms",
+    description: "Combine multiple transforms together",
+    path: "/animations/basics/multiple-transforms",
+  },
 ];
 
 export default function BasicsScreen() {
