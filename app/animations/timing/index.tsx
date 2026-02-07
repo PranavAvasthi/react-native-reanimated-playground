@@ -11,6 +11,12 @@ const DEMOS = [
     description: "withTiming and duration control",
     path: ROUTES.ANIMATIONS.TIMING.BASIC_TIMING,
   },
+  {
+    id: "easing",
+    title: "Easing",
+    description: "Easing curves for natural motion",
+    path: ROUTES.ANIMATIONS.TIMING.EASING,
+  },
 ];
 
 export default function TimingScreen() {

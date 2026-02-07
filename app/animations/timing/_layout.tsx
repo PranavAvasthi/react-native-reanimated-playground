@@ -5,6 +5,7 @@ export default function TimingLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="basic-timing" />
+      <Stack.Screen name="easing" />
     </Stack>
   );
 }

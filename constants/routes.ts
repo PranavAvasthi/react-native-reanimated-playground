@@ -11,6 +11,7 @@ export const ROUTES = {
     TIMING: {
       INDEX: "/animations/timing",
       BASIC_TIMING: "/animations/timing/basic-timing",
+      EASING: "/animations/timing/easing",
     },
   },
 };
