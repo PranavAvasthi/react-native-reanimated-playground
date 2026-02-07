@@ -14,6 +14,7 @@ export const ROUTES = {
       EASING: "/animations/timing/easing",
       SEQUENCE: "/animations/timing/sequence",
       DELAY_REPEAT: "/animations/timing/delay-repeat",
+      INTERRUPTION: "/animations/timing/interruption",
     },
   },
 };

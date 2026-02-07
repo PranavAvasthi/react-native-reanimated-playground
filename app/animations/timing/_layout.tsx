@@ -8,6 +8,7 @@ export default function TimingLayout() {
       <Stack.Screen name="easing" />
       <Stack.Screen name="sequence" />
       <Stack.Screen name="delay-repeat" />
+      <Stack.Screen name="interruption" />
     </Stack>
   );
 }

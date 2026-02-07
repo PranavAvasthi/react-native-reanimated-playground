@@ -29,6 +29,12 @@ const DEMOS = [
     description: "withDelay and withRepeat patterns",
     path: ROUTES.ANIMATIONS.TIMING.DELAY_REPEAT,
   },
+  {
+    id: "interruption",
+    title: "Interruption",
+    description: "How animations handle being interrupted",
+    path: ROUTES.ANIMATIONS.TIMING.INTERRUPTION,
+  },
 ];
 
 export default function TimingScreen() {
