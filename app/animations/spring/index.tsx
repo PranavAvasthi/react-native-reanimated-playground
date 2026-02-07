@@ -17,6 +17,12 @@ const DEMOS = [
     description: "overshootClamping for no bounce",
     path: ROUTES.ANIMATIONS.SPRING.OVERSHOOT,
   },
+  {
+    id: "gesture",
+    title: "Gesture",
+    description: "Spring with drag and release",
+    path: ROUTES.ANIMATIONS.SPRING.GESTURE,
+  },
 ];
 
 export default function SpringScreen() {

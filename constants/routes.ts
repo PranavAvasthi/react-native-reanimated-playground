@@ -20,6 +20,7 @@ export const ROUTES = {
       INDEX: "/animations/spring",
       BASICS: "/animations/spring/basics",
       OVERSHOOT: "/animations/spring/overshoot",
+      GESTURE: "/animations/spring/gesture",
     },
   },
 };
