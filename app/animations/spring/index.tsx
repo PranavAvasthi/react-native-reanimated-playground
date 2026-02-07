@@ -11,6 +11,12 @@ const DEMOS = [
     description: "withSpring and natural bounce",
     path: ROUTES.ANIMATIONS.SPRING.BASICS,
   },
+  {
+    id: "overshoot",
+    title: "Overshoot",
+    description: "overshootClamping for no bounce",
+    path: ROUTES.ANIMATIONS.SPRING.OVERSHOOT,
+  },
 ];
 
 export default function SpringScreen() {

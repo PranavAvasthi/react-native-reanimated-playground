@@ -5,6 +5,7 @@ export default function SpringLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="basics" />
+      <Stack.Screen name="overshoot" />
     </Stack>
   );
 }
