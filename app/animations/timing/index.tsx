@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Chain animations with withSequence",
     path: ROUTES.ANIMATIONS.TIMING.SEQUENCE,
   },
+  {
+    id: "delay-repeat",
+    title: "Delay & Repeat",
+    description: "withDelay and withRepeat patterns",
+    path: ROUTES.ANIMATIONS.TIMING.DELAY_REPEAT,
+  },
 ];
 
 export default function TimingScreen() {

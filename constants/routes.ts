@@ -13,6 +13,7 @@ export const ROUTES = {
       BASIC_TIMING: "/animations/timing/basic-timing",
       EASING: "/animations/timing/easing",
       SEQUENCE: "/animations/timing/sequence",
+      DELAY_REPEAT: "/animations/timing/delay-repeat",
     },
   },
 };
