@@ -8,5 +8,9 @@ export const ROUTES = {
       SCALE_ROTATE: "/animations/basics/scale-rotate",
       MULTIPLE_TRANSFORMS: "/animations/basics/multiple-transforms",
     },
+    TIMING: {
+      INDEX: "/animations/timing",
+      BASIC_TIMING: "/animations/timing/basic-timing",
+    },
   },
 };

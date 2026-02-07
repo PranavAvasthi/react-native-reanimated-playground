@@ -10,6 +10,18 @@ const SECTIONS = [
     title: "Basics",
     description: "Fundamental animation concepts",
     path: ROUTES.ANIMATIONS.BASICS.INDEX,
+    icon: "play-circle" as const,
+    iconBg: "bg-emerald-100",
+    iconColor: "#059669",
+  },
+  {
+    id: "timing",
+    title: "Timing",
+    description: "withTiming, easing, sequence & more",
+    path: ROUTES.ANIMATIONS.TIMING.INDEX,
+    icon: "time" as const,
+    iconBg: "bg-violet-100",
+    iconColor: "#7c3aed",
   },
 ];
 
@@ -51,18 +63,17 @@ const App = () => {
               key={section.id}
               activeOpacity={0.7}
               onPress={() => router.navigate(section.path as Route)}
-              className="overflow-hidden rounded-2xl shadow-sm"
-              style={{
-                shadowColor: "#000",
-                shadowOffset: { width: 0, height: 1 },
-                shadowOpacity: 0.05,
-                shadowRadius: 3,
-                elevation: 2,
-              }}
+              className="overflow-hidden rounded-2xl"
             >
-              <View className="flex-row items-center p-5">
-                <View className="mr-4 h-12 w-12 items-center justify-center rounded-xl bg-emerald-100">
-                  <Ionicons name="play-circle" size={26} color="#059669" />
+              <View className="flex-row items-start p-5">
+                <View
+                  className={`mr-4 h-12 w-12 items-center justify-center rounded-xl ${section.iconBg}`}
+                >
+                  <Ionicons
+                    name={section.icon}
+                    size={26}
+                    color={section.iconColor}
+                  />
                 </View>
                 <View className="flex-1">
                   <Text className="text-lg font-semibold text-slate-900">
