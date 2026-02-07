@@ -23,6 +23,7 @@ export const ROUTES = {
       OVERSHOOT: "/animations/spring/overshoot",
       GESTURE: "/animations/spring/gesture",
       CHAIN: "/animations/spring/chain",
+      COMPARISON: "/animations/spring/comparison",
     },
   },
 };

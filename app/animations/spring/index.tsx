@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Chaining multiple springs",
     path: ROUTES.ANIMATIONS.SPRING.CHAIN,
   },
+  {
+    id: "comparison",
+    title: "Comparison",
+    description: "withSpring vs withTiming",
+    path: ROUTES.ANIMATIONS.SPRING.COMPARISON,
+  },
 ];
 
 export default function SpringScreen() {
