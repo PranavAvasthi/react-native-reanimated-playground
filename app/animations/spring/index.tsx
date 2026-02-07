@@ -12,6 +12,12 @@ const DEMOS = [
     path: ROUTES.ANIMATIONS.SPRING.BASICS,
   },
   {
+    id: "configs",
+    title: "Configs",
+    description: "damping, stiffness, mass tuning",
+    path: ROUTES.ANIMATIONS.SPRING.CONFIGS,
+  },
+  {
     id: "overshoot",
     title: "Overshoot",
     description: "overshootClamping for no bounce",

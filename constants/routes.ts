@@ -19,6 +19,7 @@ export const ROUTES = {
     SPRING: {
       INDEX: "/animations/spring",
       BASICS: "/animations/spring/basics",
+      CONFIGS: "/animations/spring/configs",
       OVERSHOOT: "/animations/spring/overshoot",
       GESTURE: "/animations/spring/gesture",
       CHAIN: "/animations/spring/chain",
