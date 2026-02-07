@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Spring with drag and release",
     path: ROUTES.ANIMATIONS.SPRING.GESTURE,
   },
+  {
+    id: "chain",
+    title: "Chain",
+    description: "Chaining multiple springs",
+    path: ROUTES.ANIMATIONS.SPRING.CHAIN,
+  },
 ];
 
 export default function SpringScreen() {

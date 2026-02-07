@@ -7,6 +7,7 @@ export default function SpringLayout() {
       <Stack.Screen name="basics" />
       <Stack.Screen name="overshoot" />
       <Stack.Screen name="gesture" />
+      <Stack.Screen name="chain" />
     </Stack>
   );
 }
