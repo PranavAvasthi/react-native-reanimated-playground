@@ -23,6 +23,15 @@ const SECTIONS = [
     iconBg: "bg-violet-100",
     iconColor: "#7c3aed",
   },
+  {
+    id: "spring",
+    title: "Spring",
+    description: "withSpring, physics-based bounce",
+    path: ROUTES.ANIMATIONS.SPRING.INDEX,
+    icon: "basketball" as const,
+    iconBg: "bg-amber-100",
+    iconColor: "#f59e0b",
+  },
 ];
 
 const App = () => {
@@ -63,11 +72,18 @@ const App = () => {
               key={section.id}
               activeOpacity={0.7}
               onPress={() => router.navigate(section.path as Route)}
-              className="overflow-hidden rounded-2xl"
+              className="overflow-hidden rounded-2xl shadow-sm"
+              style={{
+                shadowColor: "#000",
+                shadowOffset: { width: 0, height: 1 },
+                shadowOpacity: 0.05,
+                shadowRadius: 3,
+                elevation: 2,
+              }}
             >
-              <View className="flex-row items-start p-5">
+              <View className="flex-row items-center p-5">
                 <View
-                  className={`mr-4 h-12 w-12 items-center justify-center rounded-xl ${section.iconBg}`}
+                  className={`mr-4 h-12 w-12 shrink-0 items-center justify-center rounded-xl ${section.iconBg}`}
                 >
                   <Ionicons
                     name={section.icon}
@@ -83,8 +99,14 @@ const App = () => {
                     {section.description}
                   </Text>
                 </View>
-                <View className="ml-3 h-10 w-10 items-center justify-center rounded-full bg-slate-100">
-                  <Ionicons name="chevron-forward" size={20} color="#64748b" />
+                <View className="ml-3 shrink-0 justify-center self-stretch">
+                  <View className="h-10 w-10 items-center justify-center rounded-full bg-slate-100">
+                    <Ionicons
+                      name="chevron-forward"
+                      size={20}
+                      color="#64748b"
+                    />
+                  </View>
                 </View>
               </View>
             </TouchableOpacity>

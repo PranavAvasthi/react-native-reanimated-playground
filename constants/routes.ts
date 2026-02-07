@@ -16,5 +16,9 @@ export const ROUTES = {
       DELAY_REPEAT: "/animations/timing/delay-repeat",
       INTERRUPTION: "/animations/timing/interruption",
     },
+    SPRING: {
+      INDEX: "/animations/spring",
+      BASICS: "/animations/spring/basics",
+    },
   },
 };
