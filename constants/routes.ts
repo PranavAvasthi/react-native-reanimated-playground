@@ -12,6 +12,7 @@ export const ROUTES = {
       INDEX: "/animations/timing",
       BASIC_TIMING: "/animations/timing/basic-timing",
       EASING: "/animations/timing/easing",
+      SEQUENCE: "/animations/timing/sequence",
     },
   },
 };
