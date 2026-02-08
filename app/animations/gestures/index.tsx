@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Spring back on release",
     path: ROUTES.ANIMATIONS.GESTURES.GESTURE_WITH_SPRING,
   },
+  {
+    id: "gesture-snap-points",
+    title: "Snap Points",
+    description: "Snap to predefined positions",
+    path: ROUTES.ANIMATIONS.GESTURES.GESTURE_SNAP_POINTS,
+  },
 ];
 
 export default function GesturesScreen() {
