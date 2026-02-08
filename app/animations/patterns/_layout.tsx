@@ -8,6 +8,7 @@ export default function PatternsLayout() {
       <Stack.Screen name="progress-driven" />
       <Stack.Screen name="gesture-driven" />
       <Stack.Screen name="state-machine" />
+      <Stack.Screen name="animation-hook" />
     </Stack>
   );
 }

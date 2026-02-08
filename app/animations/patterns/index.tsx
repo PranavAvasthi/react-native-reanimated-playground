@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Idle, animating, complete states",
     path: ROUTES.ANIMATIONS.PATTERNS.STATE_MACHINE,
   },
+  {
+    id: "animation-hook",
+    title: "Animation Hook",
+    description: "Reusable custom animation hook",
+    path: ROUTES.ANIMATIONS.PATTERNS.ANIMATION_HOOK,
+  },
 ];
 
 export default function PatternsScreen() {

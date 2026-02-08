@@ -56,6 +56,7 @@ export const ROUTES = {
       PROGRESS_DRIVEN: "/animations/patterns/progress-driven",
       GESTURE_DRIVEN: "/animations/patterns/gesture-driven",
       STATE_MACHINE: "/animations/patterns/state-machine",
+      ANIMATION_HOOK: "/animations/patterns/animation-hook",
     },
   },
 };
