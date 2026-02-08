@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Reusable custom animation hook",
     path: ROUTES.ANIMATIONS.PATTERNS.ANIMATION_HOOK,
   },
+  {
+    id: "compound-animation",
+    title: "Compound Animation",
+    description: "Multiple animations in sync",
+    path: ROUTES.ANIMATIONS.PATTERNS.COMPOUND_ANIMATION,
+  },
 ];
 
 export default function PatternsScreen() {
