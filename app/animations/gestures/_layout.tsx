@@ -5,6 +5,7 @@ export default function GesturesLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="pan-gesture-basics" />
+      <Stack.Screen name="drag-with-boundaries" />
     </Stack>
   );
 }

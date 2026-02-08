@@ -11,6 +11,12 @@ const DEMOS = [
     description: "Basic pan/drag with translation",
     path: ROUTES.ANIMATIONS.GESTURES.PAN_GESTURE_BASICS,
   },
+  {
+    id: "drag-with-boundaries",
+    title: "Drag with Boundaries",
+    description: "Constrain drag to a box",
+    path: ROUTES.ANIMATIONS.GESTURES.DRAG_WITH_BOUNDARIES,
+  },
 ];
 
 export default function GesturesScreen() {
