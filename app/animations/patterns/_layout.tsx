@@ -7,6 +7,7 @@ export default function PatternsLayout() {
       <Stack.Screen name="toggle" />
       <Stack.Screen name="progress-driven" />
       <Stack.Screen name="gesture-driven" />
+      <Stack.Screen name="state-machine" />
     </Stack>
   );
 }

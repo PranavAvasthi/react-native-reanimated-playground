@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Animations driven by gesture position",
     path: ROUTES.ANIMATIONS.PATTERNS.GESTURE_DRIVEN,
   },
+  {
+    id: "state-machine",
+    title: "State Machine",
+    description: "Idle, animating, complete states",
+    path: ROUTES.ANIMATIONS.PATTERNS.STATE_MACHINE,
+  },
 ];
 
 export default function PatternsScreen() {
