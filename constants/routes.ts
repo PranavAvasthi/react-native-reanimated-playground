@@ -25,5 +25,9 @@ export const ROUTES = {
       CHAIN: "/animations/spring/chain",
       COMPARISON: "/animations/spring/comparison",
     },
+    DERIVED: {
+      INDEX: "/animations/derived",
+      BASICS: "/animations/derived/basics",
+    },
   },
 };

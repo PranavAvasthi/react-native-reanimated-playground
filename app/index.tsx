@@ -32,6 +32,15 @@ const SECTIONS = [
     iconBg: "bg-amber-100",
     iconColor: "#f59e0b",
   },
+  {
+    id: "derived",
+    title: "Derived",
+    description: "useDerivedValue, computed from shared values",
+    path: ROUTES.ANIMATIONS.DERIVED.INDEX,
+    icon: "layers" as const,
+    iconBg: "bg-sky-100",
+    iconColor: "#0ea5e9",
+  },
 ];
 
 const App = () => {
