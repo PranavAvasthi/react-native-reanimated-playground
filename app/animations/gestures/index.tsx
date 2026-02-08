@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Constrain drag to a box",
     path: ROUTES.ANIMATIONS.GESTURES.DRAG_WITH_BOUNDARIES,
   },
+  {
+    id: "swipe-to-dismiss",
+    title: "Swipe to Dismiss",
+    description: "Swipe horizontal to dismiss",
+    path: ROUTES.ANIMATIONS.GESTURES.SWIPE_TO_DISMISS,
+  },
 ];
 
 export default function GesturesScreen() {
