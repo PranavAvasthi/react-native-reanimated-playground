@@ -50,5 +50,9 @@ export const ROUTES = {
       GESTURE_SNAP_POINTS: "/animations/gestures/gesture-snap-points",
       GESTURE_VS_STATE: "/animations/gestures/gesture-vs-state",
     },
+    PATTERNS: {
+      INDEX: "/animations/patterns",
+      TOGGLE: "/animations/patterns/toggle",
+    },
   },
 };

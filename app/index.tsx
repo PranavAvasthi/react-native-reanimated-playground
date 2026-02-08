@@ -59,6 +59,15 @@ const SECTIONS = [
     iconBg: "bg-teal-100",
     iconColor: "#14b8a6",
   },
+  {
+    id: "patterns",
+    title: "Patterns",
+    description: "Toggle, progress-driven, hooks & more",
+    path: ROUTES.ANIMATIONS.PATTERNS.INDEX,
+    icon: "git-merge" as const,
+    iconBg: "bg-indigo-100",
+    iconColor: "#6366f1",
+  },
 ];
 
 const App = () => {

@@ -9,6 +9,7 @@ export default function AnimationsLayout() {
       <Stack.Screen name="derived" />
       <Stack.Screen name="interpolate" />
       <Stack.Screen name="gestures" />
+      <Stack.Screen name="patterns" />
     </Stack>
   );
 }
