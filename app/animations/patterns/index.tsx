@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Animations driven by 0–1 progress",
     path: ROUTES.ANIMATIONS.PATTERNS.PROGRESS_DRIVEN,
   },
+  {
+    id: "gesture-driven",
+    title: "Gesture Driven",
+    description: "Animations driven by gesture position",
+    path: ROUTES.ANIMATIONS.PATTERNS.GESTURE_DRIVEN,
+  },
 ];
 
 export default function PatternsScreen() {
