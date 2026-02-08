@@ -50,6 +50,15 @@ const SECTIONS = [
     iconBg: "bg-rose-100",
     iconColor: "#f43f5e",
   },
+  {
+    id: "gestures",
+    title: "Gestures",
+    description: "Pan, drag, swipe with react-native-gesture-handler",
+    path: ROUTES.ANIMATIONS.GESTURES.INDEX,
+    icon: "hand-left" as const,
+    iconBg: "bg-teal-100",
+    iconColor: "#14b8a6",
+  },
 ];
 
 const App = () => {

@@ -41,5 +41,9 @@ export const ROUTES = {
       SCROLL: "/animations/interpolate/scroll",
       COLOR: "/animations/interpolate/color",
     },
+    GESTURES: {
+      INDEX: "/animations/gestures",
+      PAN_GESTURE_BASICS: "/animations/gestures/pan-gesture-basics",
+    },
   },
 };
