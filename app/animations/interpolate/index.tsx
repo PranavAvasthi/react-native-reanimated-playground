@@ -11,6 +11,12 @@ const DEMOS = [
     description: "Map input range to output range",
     path: ROUTES.ANIMATIONS.INTERPOLATE.BASICS,
   },
+  {
+    id: "clamp",
+    title: "Clamp",
+    description: "Extrapolation and clamping",
+    path: ROUTES.ANIMATIONS.INTERPOLATE.CLAMP,
+  },
 ];
 
 export default function InterpolateScreen() {
