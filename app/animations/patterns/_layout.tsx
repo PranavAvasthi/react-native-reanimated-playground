@@ -5,6 +5,7 @@ export default function PatternsLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="toggle" />
+      <Stack.Screen name="progress-driven" />
     </Stack>
   );
 }

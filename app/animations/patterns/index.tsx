@@ -11,6 +11,12 @@ const DEMOS = [
     description: "Simple on/off animation pattern",
     path: ROUTES.ANIMATIONS.PATTERNS.TOGGLE,
   },
+  {
+    id: "progress-driven",
+    title: "Progress Driven",
+    description: "Animations driven by 0–1 progress",
+    path: ROUTES.ANIMATIONS.PATTERNS.PROGRESS_DRIVEN,
+  },
 ];
 
 export default function PatternsScreen() {

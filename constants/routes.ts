@@ -53,6 +53,7 @@ export const ROUTES = {
     PATTERNS: {
       INDEX: "/animations/patterns",
       TOGGLE: "/animations/patterns/toggle",
+      PROGRESS_DRIVEN: "/animations/patterns/progress-driven",
     },
   },
 };
