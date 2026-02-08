@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Extrapolation and clamping",
     path: ROUTES.ANIMATIONS.INTERPOLATE.CLAMP,
   },
+  {
+    id: "multiStep",
+    title: "Multi Step",
+    description: "Multiple keyframes in interpolation",
+    path: ROUTES.ANIMATIONS.INTERPOLATE.MULTI_STEP,
+  },
 ];
 
 export default function InterpolateScreen() {

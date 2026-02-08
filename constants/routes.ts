@@ -37,6 +37,7 @@ export const ROUTES = {
       INDEX: "/animations/interpolate",
       BASICS: "/animations/interpolate/basics",
       CLAMP: "/animations/interpolate/clamp",
+      MULTI_STEP: "/animations/interpolate/multi-step",
     },
   },
 };

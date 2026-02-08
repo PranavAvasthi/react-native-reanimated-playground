@@ -6,6 +6,7 @@ export default function InterpolateLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="basics" />
       <Stack.Screen name="clamp" />
+      <Stack.Screen name="multi-step" />
     </Stack>
   );
 }
