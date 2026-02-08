@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Multiple keyframes in interpolation",
     path: ROUTES.ANIMATIONS.INTERPOLATE.MULTI_STEP,
   },
+  {
+    id: "scroll",
+    title: "Scroll",
+    description: "Interpolate from scroll position",
+    path: ROUTES.ANIMATIONS.INTERPOLATE.SCROLL,
+  },
 ];
 
 export default function InterpolateScreen() {
