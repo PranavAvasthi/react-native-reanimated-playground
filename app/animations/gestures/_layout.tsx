@@ -7,6 +7,7 @@ export default function GesturesLayout() {
       <Stack.Screen name="pan-gesture-basics" />
       <Stack.Screen name="drag-with-boundaries" />
       <Stack.Screen name="swipe-to-dismiss" />
+      <Stack.Screen name="gesture-with-spring" />
     </Stack>
   );
 }

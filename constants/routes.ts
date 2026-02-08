@@ -46,6 +46,7 @@ export const ROUTES = {
       PAN_GESTURE_BASICS: "/animations/gestures/pan-gesture-basics",
       DRAG_WITH_BOUNDARIES: "/animations/gestures/drag-with-boundaries",
       SWIPE_TO_DISMISS: "/animations/gestures/swipe-to-dismiss",
+      GESTURE_WITH_SPRING: "/animations/gestures/gesture-with-spring",
     },
   },
 };

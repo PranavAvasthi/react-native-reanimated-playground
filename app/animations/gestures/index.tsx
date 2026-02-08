@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Swipe horizontal to dismiss",
     path: ROUTES.ANIMATIONS.GESTURES.SWIPE_TO_DISMISS,
   },
+  {
+    id: "gesture-with-spring",
+    title: "Gesture with Spring",
+    description: "Spring back on release",
+    path: ROUTES.ANIMATIONS.GESTURES.GESTURE_WITH_SPRING,
+  },
 ];
 
 export default function GesturesScreen() {
