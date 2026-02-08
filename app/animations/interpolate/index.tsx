@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Interpolate from scroll position",
     path: ROUTES.ANIMATIONS.INTERPOLATE.SCROLL,
   },
+  {
+    id: "color",
+    title: "Color",
+    description: "interpolateColor for smooth color transitions",
+    path: ROUTES.ANIMATIONS.INTERPOLATE.COLOR,
+  },
 ];
 
 export default function InterpolateScreen() {
