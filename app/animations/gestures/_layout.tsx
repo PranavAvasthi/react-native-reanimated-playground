@@ -9,6 +9,7 @@ export default function GesturesLayout() {
       <Stack.Screen name="swipe-to-dismiss" />
       <Stack.Screen name="gesture-with-spring" />
       <Stack.Screen name="gesture-snap-points" />
+      <Stack.Screen name="gesture-vs-state" />
     </Stack>
   );
 }

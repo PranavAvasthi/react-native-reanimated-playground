@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Snap to predefined positions",
     path: ROUTES.ANIMATIONS.GESTURES.GESTURE_SNAP_POINTS,
   },
+  {
+    id: "gesture-vs-state",
+    title: "Gesture vs State",
+    description: "Shared values vs React state",
+    path: ROUTES.ANIMATIONS.GESTURES.GESTURE_VS_STATE,
+  },
 ];
 
 export default function GesturesScreen() {
