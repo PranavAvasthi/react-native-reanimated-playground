@@ -28,6 +28,7 @@ export const ROUTES = {
     DERIVED: {
       INDEX: "/animations/derived",
       BASICS: "/animations/derived/basics",
+      OPACITY: "/animations/derived/opacity",
     },
   },
 };

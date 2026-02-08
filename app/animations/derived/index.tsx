@@ -11,6 +11,12 @@ const DEMOS = [
     description: "useDerivedValue from shared values",
     path: ROUTES.ANIMATIONS.DERIVED.BASICS,
   },
+  {
+    id: "opacity",
+    title: "Opacity",
+    description: "Derived opacity from progress",
+    path: ROUTES.ANIMATIONS.DERIVED.OPACITY,
+  },
 ];
 
 export default function DerivedScreen() {
