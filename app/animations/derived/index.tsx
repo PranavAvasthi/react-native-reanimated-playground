@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Derived opacity from progress",
     path: ROUTES.ANIMATIONS.DERIVED.OPACITY,
   },
+  {
+    id: "clamp",
+    title: "Clamp",
+    description: "interpolate and clamp values",
+    path: ROUTES.ANIMATIONS.DERIVED.CLAMP,
+  },
 ];
 
 export default function DerivedScreen() {
