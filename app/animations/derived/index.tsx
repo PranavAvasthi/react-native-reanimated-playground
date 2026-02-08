@@ -23,6 +23,12 @@ const DEMOS = [
     description: "interpolate and clamp values",
     path: ROUTES.ANIMATIONS.DERIVED.CLAMP,
   },
+  {
+    id: "chain",
+    title: "Chain",
+    description: "Chained derived values",
+    path: ROUTES.ANIMATIONS.DERIVED.CHAIN,
+  },
 ];
 
 export default function DerivedScreen() {

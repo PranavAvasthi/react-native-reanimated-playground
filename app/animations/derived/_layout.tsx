@@ -7,6 +7,7 @@ export default function DerivedLayout() {
       <Stack.Screen name="basics" />
       <Stack.Screen name="opacity" />
       <Stack.Screen name="clamp" />
+      <Stack.Screen name="chain" />
     </Stack>
   );
 }

@@ -30,6 +30,7 @@ export const ROUTES = {
       BASICS: "/animations/derived/basics",
       OPACITY: "/animations/derived/opacity",
       CLAMP: "/animations/derived/clamp",
+      CHAIN: "/animations/derived/chain",
     },
   },
 };
