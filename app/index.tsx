@@ -41,6 +41,15 @@ const SECTIONS = [
     iconBg: "bg-sky-100",
     iconColor: "#0ea5e9",
   },
+  {
+    id: "interpolate",
+    title: "Interpolate",
+    description: "Map values between ranges, colors, scroll",
+    path: ROUTES.ANIMATIONS.INTERPOLATE.INDEX,
+    icon: "swap-horizontal" as const,
+    iconBg: "bg-rose-100",
+    iconColor: "#f43f5e",
+  },
 ];
 
 const App = () => {

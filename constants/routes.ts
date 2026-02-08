@@ -33,5 +33,9 @@ export const ROUTES = {
       CHAIN: "/animations/derived/chain",
       GESTURE: "/animations/derived/gesture",
     },
+    INTERPOLATE: {
+      INDEX: "/animations/interpolate",
+      BASICS: "/animations/interpolate/basics",
+    },
   },
 };

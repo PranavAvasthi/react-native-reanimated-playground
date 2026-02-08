@@ -7,6 +7,7 @@ export default function AnimationsLayout() {
       <Stack.Screen name="timing" />
       <Stack.Screen name="spring" />
       <Stack.Screen name="derived" />
+      <Stack.Screen name="interpolate" />
     </Stack>
   );
 }
