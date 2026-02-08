@@ -31,6 +31,7 @@ export const ROUTES = {
       OPACITY: "/animations/derived/opacity",
       CLAMP: "/animations/derived/clamp",
       CHAIN: "/animations/derived/chain",
+      GESTURE: "/animations/derived/gesture",
     },
   },
 };

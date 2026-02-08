@@ -8,6 +8,7 @@ export default function DerivedLayout() {
       <Stack.Screen name="opacity" />
       <Stack.Screen name="clamp" />
       <Stack.Screen name="chain" />
+      <Stack.Screen name="gesture" />
     </Stack>
   );
 }

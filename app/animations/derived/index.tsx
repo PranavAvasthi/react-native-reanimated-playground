@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Chained derived values",
     path: ROUTES.ANIMATIONS.DERIVED.CHAIN,
   },
+  {
+    id: "gesture",
+    title: "Gesture",
+    description: "Derived value from gesture",
+    path: ROUTES.ANIMATIONS.DERIVED.GESTURE,
+  },
 ];
 
 export default function DerivedScreen() {
