@@ -62,6 +62,7 @@ export const ROUTES = {
     SCROLL: {
       INDEX: "/animations/scroll",
       BASICS: "/animations/scroll/basics",
+      COLLAPSING_HEADER: "/animations/scroll/collapsing-header",
     },
   },
 };

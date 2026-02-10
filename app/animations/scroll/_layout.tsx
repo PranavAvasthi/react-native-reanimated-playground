@@ -5,6 +5,7 @@ export default function ScrollLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="basics" />
+      <Stack.Screen name="collapsing-header" />
     </Stack>
   );
 }

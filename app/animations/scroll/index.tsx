@@ -11,6 +11,12 @@ const DEMOS = [
     description: "useAnimatedScrollHandler + scroll-driven animation",
     path: ROUTES.ANIMATIONS.SCROLL.BASICS,
   },
+  {
+    id: "collapsing-header",
+    title: "Collapsing Header",
+    description: "Header shrinks as you scroll",
+    path: ROUTES.ANIMATIONS.SCROLL.COLLAPSING_HEADER,
+  },
 ];
 
 export default function ScrollScreen() {
