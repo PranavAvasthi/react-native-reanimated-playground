@@ -65,6 +65,7 @@ export const ROUTES = {
       COLLAPSING_HEADER: "/animations/scroll/collapsing-header",
       PARALLAX_IMAGE: "/animations/scroll/parallax-image",
       PROGRESS: "/animations/scroll/progress",
+      DRIVEN_TABS: "/animations/scroll/driven-tabs",
     },
   },
 };

@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Scroll progress indicator",
     path: ROUTES.ANIMATIONS.SCROLL.PROGRESS,
   },
+  {
+    id: "driven-tabs",
+    title: "Driven Tabs",
+    description: "Tabs switch based on scroll position",
+    path: ROUTES.ANIMATIONS.SCROLL.DRIVEN_TABS,
+  },
 ];
 
 export default function ScrollScreen() {

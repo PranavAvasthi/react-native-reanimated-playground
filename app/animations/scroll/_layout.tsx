@@ -8,6 +8,7 @@ export default function ScrollLayout() {
       <Stack.Screen name="collapsing-header" />
       <Stack.Screen name="parallax-image" />
       <Stack.Screen name="progress" />
+      <Stack.Screen name="driven-tabs" />
     </Stack>
   );
 }
