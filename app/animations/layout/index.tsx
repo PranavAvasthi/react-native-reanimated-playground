@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Expand and collapse sections smoothly",
     path: ROUTES.ANIMATIONS.LAYOUT.EXPAND_COLLAPSE,
   },
+  {
+    id: "reorder",
+    title: "Reorder",
+    description: "Reorder list items with layout animation",
+    path: ROUTES.ANIMATIONS.LAYOUT.REORDER,
+  },
 ];
 
 export default function LayoutScreen() {
