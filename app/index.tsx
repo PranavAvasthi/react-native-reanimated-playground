@@ -77,6 +77,15 @@ const SECTIONS = [
     iconBg: "bg-orange-100",
     iconColor: "#f97316",
   },
+  {
+    id: "layout",
+    title: "Layout",
+    description: "Layout animations, enter/exit, reorder",
+    path: ROUTES.ANIMATIONS.LAYOUT.INDEX,
+    icon: "resize" as const,
+    iconBg: "bg-lime-100",
+    iconColor: "#84cc16",
+  },
 ];
 
 const App = () => {

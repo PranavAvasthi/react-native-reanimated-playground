@@ -68,5 +68,9 @@ export const ROUTES = {
       DRIVEN_TABS: "/animations/scroll/driven-tabs",
       SCROLL_VS_STATE: "/animations/scroll/scroll-vs-state",
     },
+    LAYOUT: {
+      INDEX: "/animations/layout",
+      BASICS: "/animations/layout/basics",
+    },
   },
 };
