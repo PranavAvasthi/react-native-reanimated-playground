@@ -59,5 +59,9 @@ export const ROUTES = {
       ANIMATION_HOOK: "/animations/patterns/animation-hook",
       COMPOUND_ANIMATION: "/animations/patterns/compound-animation",
     },
+    SCROLL: {
+      INDEX: "/animations/scroll",
+      BASICS: "/animations/scroll/basics",
+    },
   },
 };

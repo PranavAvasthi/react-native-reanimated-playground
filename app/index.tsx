@@ -68,6 +68,15 @@ const SECTIONS = [
     iconBg: "bg-indigo-100",
     iconColor: "#6366f1",
   },
+  {
+    id: "scroll",
+    title: "Scroll",
+    description: "Scroll-driven animations, header, parallax",
+    path: ROUTES.ANIMATIONS.SCROLL.INDEX,
+    icon: "swap-vertical" as const,
+    iconBg: "bg-orange-100",
+    iconColor: "#f97316",
+  },
 ];
 
 const App = () => {

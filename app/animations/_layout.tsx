@@ -10,6 +10,7 @@ export default function AnimationsLayout() {
       <Stack.Screen name="interpolate" />
       <Stack.Screen name="gestures" />
       <Stack.Screen name="patterns" />
+      <Stack.Screen name="scroll" />
     </Stack>
   );
 }
