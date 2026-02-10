@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Reorder list items with layout animation",
     path: ROUTES.ANIMATIONS.LAYOUT.REORDER,
   },
+  {
+    id: "layout-vs-manual",
+    title: "Layout vs Manual",
+    description: "Layout-driven vs manual animation",
+    path: ROUTES.ANIMATIONS.LAYOUT.LAYOUT_VS_MANUAL,
+  },
 ];
 
 export default function LayoutScreen() {

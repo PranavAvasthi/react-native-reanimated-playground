@@ -8,6 +8,7 @@ export default function LayoutAnimationsLayout() {
       <Stack.Screen name="enter-exit" />
       <Stack.Screen name="expand-collapse" />
       <Stack.Screen name="reorder" />
+      <Stack.Screen name="layout-vs-manual" />
     </Stack>
   );
 }
