@@ -66,6 +66,7 @@ export const ROUTES = {
       PARALLAX_IMAGE: "/animations/scroll/parallax-image",
       PROGRESS: "/animations/scroll/progress",
       DRIVEN_TABS: "/animations/scroll/driven-tabs",
+      SCROLL_VS_STATE: "/animations/scroll/scroll-vs-state",
     },
   },
 };

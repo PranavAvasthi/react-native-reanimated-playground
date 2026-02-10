@@ -9,6 +9,7 @@ export default function ScrollLayout() {
       <Stack.Screen name="parallax-image" />
       <Stack.Screen name="progress" />
       <Stack.Screen name="driven-tabs" />
+      <Stack.Screen name="scroll-vs-state" />
     </Stack>
   );
 }

@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Tabs switch based on scroll position",
     path: ROUTES.ANIMATIONS.SCROLL.DRIVEN_TABS,
   },
+  {
+    id: "scroll-vs-state",
+    title: "Scroll vs State",
+    description: "Shared values vs React state for scroll",
+    path: ROUTES.ANIMATIONS.SCROLL.SCROLL_VS_STATE,
+  },
 ];
 
 export default function ScrollScreen() {
