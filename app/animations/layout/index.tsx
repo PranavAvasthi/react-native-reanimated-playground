@@ -11,6 +11,12 @@ const DEMOS = [
     description: "Layout transition when size/position changes",
     path: ROUTES.ANIMATIONS.LAYOUT.BASICS,
   },
+  {
+    id: "enter-exit",
+    title: "Enter / Exit",
+    description: "Animate in and out with FadeIn, FadeOut",
+    path: ROUTES.ANIMATIONS.LAYOUT.ENTER_EXIT,
+  },
 ];
 
 export default function LayoutScreen() {
