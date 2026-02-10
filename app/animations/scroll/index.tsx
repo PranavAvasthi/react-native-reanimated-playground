@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Image moves at different rate while scrolling",
     path: ROUTES.ANIMATIONS.SCROLL.PARALLAX_IMAGE,
   },
+  {
+    id: "progress",
+    title: "Progress",
+    description: "Scroll progress indicator",
+    path: ROUTES.ANIMATIONS.SCROLL.PROGRESS,
+  },
 ];
 
 export default function ScrollScreen() {
