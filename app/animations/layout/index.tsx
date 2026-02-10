@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Animate in and out with FadeIn, FadeOut",
     path: ROUTES.ANIMATIONS.LAYOUT.ENTER_EXIT,
   },
+  {
+    id: "expand-collapse",
+    title: "Expand / Collapse",
+    description: "Expand and collapse sections smoothly",
+    path: ROUTES.ANIMATIONS.LAYOUT.EXPAND_COLLAPSE,
+  },
 ];
 
 export default function LayoutScreen() {

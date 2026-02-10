@@ -6,6 +6,7 @@ export default function LayoutAnimationsLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="basics" />
       <Stack.Screen name="enter-exit" />
+      <Stack.Screen name="expand-collapse" />
     </Stack>
   );
 }

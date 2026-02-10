@@ -72,6 +72,7 @@ export const ROUTES = {
       INDEX: "/animations/layout",
       BASICS: "/animations/layout/basics",
       ENTER_EXIT: "/animations/layout/enter-exit",
+      EXPAND_COLLAPSE: "/animations/layout/expand-collapse",
     },
   },
 };
