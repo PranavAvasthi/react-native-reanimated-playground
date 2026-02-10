@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Header shrinks as you scroll",
     path: ROUTES.ANIMATIONS.SCROLL.COLLAPSING_HEADER,
   },
+  {
+    id: "parallax-image",
+    title: "Parallax Image",
+    description: "Image moves at different rate while scrolling",
+    path: ROUTES.ANIMATIONS.SCROLL.PARALLAX_IMAGE,
+  },
 ];
 
 export default function ScrollScreen() {

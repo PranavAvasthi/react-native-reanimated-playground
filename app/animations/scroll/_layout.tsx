@@ -6,6 +6,7 @@ export default function ScrollLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="basics" />
       <Stack.Screen name="collapsing-header" />
+      <Stack.Screen name="parallax-image" />
     </Stack>
   );
 }
