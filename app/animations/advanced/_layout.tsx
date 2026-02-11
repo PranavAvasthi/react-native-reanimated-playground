@@ -10,6 +10,7 @@ export default function AdvancedLayout() {
       <Stack.Screen name="animated-state-machine" />
       <Stack.Screen name="cross-component-sync" />
       <Stack.Screen name="gesture-velocity-prediction" />
+      <Stack.Screen name="use-animated-reaction" />
     </Stack>
   );
 }

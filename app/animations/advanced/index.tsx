@@ -41,6 +41,12 @@ const DEMOS = [
     description: "Use velocity to predict gesture end",
     path: ROUTES.ANIMATIONS.ADVANCED.GESTURE_VELOCITY_PREDICTION,
   },
+  {
+    id: "use-animated-reaction",
+    title: "useAnimatedReaction",
+    description: "React to shared value changes on UI thread",
+    path: ROUTES.ANIMATIONS.ADVANCED.USE_ANIMATED_REACTION,
+  },
 ];
 
 export default function AdvancedScreen() {

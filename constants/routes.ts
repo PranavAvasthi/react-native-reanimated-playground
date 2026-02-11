@@ -89,10 +89,13 @@ export const ROUTES = {
       INDEX: "/animations/advanced",
       ANIMATION_ORCHESTRATION: "/animations/advanced/animation-orchestration",
       INTERRUPTIBLE_ANIMATIONS: "/animations/advanced/interruptible-animations",
-      PHYSICS_TUNING_PLAYGROUND: "/animations/advanced/physics-tuning-playground",
+      PHYSICS_TUNING_PLAYGROUND:
+        "/animations/advanced/physics-tuning-playground",
       ANIMATED_STATE_MACHINE: "/animations/advanced/animated-state-machine",
       CROSS_COMPONENT_SYNC: "/animations/advanced/cross-component-sync",
-      GESTURE_VELOCITY_PREDICTION: "/animations/advanced/gesture-velocity-prediction",
+      GESTURE_VELOCITY_PREDICTION:
+        "/animations/advanced/gesture-velocity-prediction",
+      USE_ANIMATED_REACTION: "/animations/advanced/use-animated-reaction",
     },
   },
 };
