@@ -86,6 +86,15 @@ const SECTIONS = [
     iconBg: "bg-lime-100",
     iconColor: "#84cc16",
   },
+  {
+    id: "list",
+    title: "List",
+    description: "List animations, FlatList, swipe to delete",
+    path: ROUTES.ANIMATIONS.LIST.INDEX,
+    icon: "list" as const,
+    iconBg: "bg-fuchsia-100",
+    iconColor: "#c026d3",
+  },
 ];
 
 const App = () => {

@@ -76,5 +76,9 @@ export const ROUTES = {
       REORDER: "/animations/layout/reorder",
       LAYOUT_VS_MANUAL: "/animations/layout/layout-vs-manual",
     },
+    LIST: {
+      INDEX: "/animations/list",
+      ENTER_EXIT: "/animations/list/enter-exit",
+    },
   },
 };
