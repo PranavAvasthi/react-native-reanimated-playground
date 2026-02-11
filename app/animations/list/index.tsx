@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Many items with layout animations",
     path: ROUTES.ANIMATIONS.LIST.LARGE_LIST_PERFORMANCE,
   },
+  {
+    id: "list-vs-layout",
+    title: "List vs Layout",
+    description: "ScrollView map vs FlatList + layout",
+    path: ROUTES.ANIMATIONS.LIST.LIST_VS_LAYOUT,
+  },
 ];
 
 export default function ListScreen() {

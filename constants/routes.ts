@@ -83,6 +83,7 @@ export const ROUTES = {
       SWIPE_TO_DELETE: "/animations/list/swipe-to-delete",
       ANIMATED_FLAT_LIST: "/animations/list/animated-flat-list",
       LARGE_LIST_PERFORMANCE: "/animations/list/large-list-performance",
+      LIST_VS_LAYOUT: "/animations/list/list-vs-layout",
     },
   },
 };
