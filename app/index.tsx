@@ -95,6 +95,15 @@ const SECTIONS = [
     iconBg: "bg-fuchsia-100",
     iconColor: "#c026d3",
   },
+  {
+    id: "advanced",
+    title: "Advanced",
+    description: "Orchestration, interruptible, physics, sync",
+    path: ROUTES.ANIMATIONS.ADVANCED.INDEX,
+    icon: "rocket" as const,
+    iconBg: "bg-cyan-100",
+    iconColor: "#06b6d4",
+  },
 ];
 
 const App = () => {

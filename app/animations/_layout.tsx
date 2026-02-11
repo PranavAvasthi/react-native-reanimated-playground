@@ -13,6 +13,7 @@ export default function AnimationsLayout() {
       <Stack.Screen name="scroll" />
       <Stack.Screen name="layout" />
       <Stack.Screen name="list" />
+      <Stack.Screen name="advanced" />
     </Stack>
   );
 }

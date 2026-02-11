@@ -85,5 +85,9 @@ export const ROUTES = {
       LARGE_LIST_PERFORMANCE: "/animations/list/large-list-performance",
       LIST_VS_LAYOUT: "/animations/list/list-vs-layout",
     },
+    ADVANCED: {
+      INDEX: "/animations/advanced",
+      ANIMATION_ORCHESTRATION: "/animations/advanced/animation-orchestration",
+    },
   },
 };
