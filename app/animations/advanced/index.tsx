@@ -35,6 +35,12 @@ const DEMOS = [
     description: "Share shared values across components",
     path: ROUTES.ANIMATIONS.ADVANCED.CROSS_COMPONENT_SYNC,
   },
+  {
+    id: "gesture-velocity-prediction",
+    title: "Gesture Velocity Prediction",
+    description: "Use velocity to predict gesture end",
+    path: ROUTES.ANIMATIONS.ADVANCED.GESTURE_VELOCITY_PREDICTION,
+  },
 ];
 
 export default function AdvancedScreen() {

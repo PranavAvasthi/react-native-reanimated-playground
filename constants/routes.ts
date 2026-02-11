@@ -92,6 +92,7 @@ export const ROUTES = {
       PHYSICS_TUNING_PLAYGROUND: "/animations/advanced/physics-tuning-playground",
       ANIMATED_STATE_MACHINE: "/animations/advanced/animated-state-machine",
       CROSS_COMPONENT_SYNC: "/animations/advanced/cross-component-sync",
+      GESTURE_VELOCITY_PREDICTION: "/animations/advanced/gesture-velocity-prediction",
     },
   },
 };

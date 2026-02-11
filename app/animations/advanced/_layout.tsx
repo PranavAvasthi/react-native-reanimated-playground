@@ -9,6 +9,7 @@ export default function AdvancedLayout() {
       <Stack.Screen name="physics-tuning-playground" />
       <Stack.Screen name="animated-state-machine" />
       <Stack.Screen name="cross-component-sync" />
+      <Stack.Screen name="gesture-velocity-prediction" />
     </Stack>
   );
 }
