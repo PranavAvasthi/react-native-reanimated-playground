@@ -5,6 +5,7 @@ export default function AdvancedLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="animation-orchestration" />
+      <Stack.Screen name="interruptible-animations" />
     </Stack>
   );
 }

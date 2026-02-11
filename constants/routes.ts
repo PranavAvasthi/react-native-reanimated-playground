@@ -88,6 +88,7 @@ export const ROUTES = {
     ADVANCED: {
       INDEX: "/animations/advanced",
       ANIMATION_ORCHESTRATION: "/animations/advanced/animation-orchestration",
+      INTERRUPTIBLE_ANIMATIONS: "/animations/advanced/interruptible-animations",
     },
   },
 };

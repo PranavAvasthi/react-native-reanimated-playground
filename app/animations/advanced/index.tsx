@@ -11,6 +11,12 @@ const DEMOS = [
     description: "Coordinate multiple animations in sequence or parallel",
     path: ROUTES.ANIMATIONS.ADVANCED.ANIMATION_ORCHESTRATION,
   },
+  {
+    id: "interruptible-animations",
+    title: "Interruptible Animations",
+    description: "Cancel or replace in-flight animations",
+    path: ROUTES.ANIMATIONS.ADVANCED.INTERRUPTIBLE_ANIMATIONS,
+  },
 ];
 
 export default function AdvancedScreen() {
