@@ -29,6 +29,12 @@ const DEMOS = [
     description: "Animated.FlatList with item animations",
     path: ROUTES.ANIMATIONS.LIST.ANIMATED_FLAT_LIST,
   },
+  {
+    id: "large-list-performance",
+    title: "Large List Performance",
+    description: "Many items with layout animations",
+    path: ROUTES.ANIMATIONS.LIST.LARGE_LIST_PERFORMANCE,
+  },
 ];
 
 export default function ListScreen() {

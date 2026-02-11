@@ -8,6 +8,7 @@ export default function ListLayout() {
       <Stack.Screen name="reorder" />
       <Stack.Screen name="swipe-to-delete" />
       <Stack.Screen name="animated-flat-list" />
+      <Stack.Screen name="large-list-performance" />
     </Stack>
   );
 }
