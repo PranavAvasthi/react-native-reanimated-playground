@@ -89,6 +89,7 @@ export const ROUTES = {
       INDEX: "/animations/advanced",
       ANIMATION_ORCHESTRATION: "/animations/advanced/animation-orchestration",
       INTERRUPTIBLE_ANIMATIONS: "/animations/advanced/interruptible-animations",
+      PHYSICS_TUNING_PLAYGROUND: "/animations/advanced/physics-tuning-playground",
     },
   },
 };

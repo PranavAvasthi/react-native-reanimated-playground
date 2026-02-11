@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Cancel or replace in-flight animations",
     path: ROUTES.ANIMATIONS.ADVANCED.INTERRUPTIBLE_ANIMATIONS,
   },
+  {
+    id: "physics-tuning-playground",
+    title: "Physics Tuning Playground",
+    description: "Tweak mass, damping, stiffness live",
+    path: ROUTES.ANIMATIONS.ADVANCED.PHYSICS_TUNING_PLAYGROUND,
+  },
 ];
 
 export default function AdvancedScreen() {
