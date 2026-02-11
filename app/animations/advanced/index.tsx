@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Tweak mass, damping, stiffness live",
     path: ROUTES.ANIMATIONS.ADVANCED.PHYSICS_TUNING_PLAYGROUND,
   },
+  {
+    id: "animated-state-machine",
+    title: "Animated State Machine",
+    description: "States drive different animations",
+    path: ROUTES.ANIMATIONS.ADVANCED.ANIMATED_STATE_MACHINE,
+  },
 ];
 
 export default function AdvancedScreen() {

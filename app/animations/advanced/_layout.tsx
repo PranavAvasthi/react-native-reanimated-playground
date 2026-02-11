@@ -7,6 +7,7 @@ export default function AdvancedLayout() {
       <Stack.Screen name="animation-orchestration" />
       <Stack.Screen name="interruptible-animations" />
       <Stack.Screen name="physics-tuning-playground" />
+      <Stack.Screen name="animated-state-machine" />
     </Stack>
   );
 }
