@@ -29,6 +29,12 @@ const DEMOS = [
     description: "States drive different animations",
     path: ROUTES.ANIMATIONS.ADVANCED.ANIMATED_STATE_MACHINE,
   },
+  {
+    id: "cross-component-sync",
+    title: "Cross-Component Sync",
+    description: "Share shared values across components",
+    path: ROUTES.ANIMATIONS.ADVANCED.CROSS_COMPONENT_SYNC,
+  },
 ];
 
 export default function AdvancedScreen() {
