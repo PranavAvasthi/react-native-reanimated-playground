@@ -17,6 +17,12 @@ const DEMOS = [
     description: "Reorder list items with layout animation",
     path: ROUTES.ANIMATIONS.LIST.REORDER,
   },
+  {
+    id: "swipe-to-delete",
+    title: "Swipe to Delete",
+    description: "Swipe row to reveal delete action",
+    path: ROUTES.ANIMATIONS.LIST.SWIPE_TO_DELETE,
+  },
 ];
 
 export default function ListScreen() {

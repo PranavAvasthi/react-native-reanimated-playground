@@ -6,6 +6,7 @@ export default function ListLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="enter-exit" />
       <Stack.Screen name="reorder" />
+      <Stack.Screen name="swipe-to-delete" />
     </Stack>
   );
 }

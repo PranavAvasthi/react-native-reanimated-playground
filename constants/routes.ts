@@ -80,6 +80,7 @@ export const ROUTES = {
       INDEX: "/animations/list",
       ENTER_EXIT: "/animations/list/enter-exit",
       REORDER: "/animations/list/reorder",
+      SWIPE_TO_DELETE: "/animations/list/swipe-to-delete",
     },
   },
 };
