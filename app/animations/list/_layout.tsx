@@ -5,6 +5,7 @@ export default function ListLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="enter-exit" />
+      <Stack.Screen name="reorder" />
     </Stack>
   );
 }

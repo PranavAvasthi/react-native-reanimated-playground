@@ -11,6 +11,12 @@ const DEMOS = [
     description: "List items animate in and out",
     path: ROUTES.ANIMATIONS.LIST.ENTER_EXIT,
   },
+  {
+    id: "reorder",
+    title: "Reorder",
+    description: "Reorder list items with layout animation",
+    path: ROUTES.ANIMATIONS.LIST.REORDER,
+  },
 ];
 
 export default function ListScreen() {

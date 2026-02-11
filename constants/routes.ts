@@ -79,6 +79,7 @@ export const ROUTES = {
     LIST: {
       INDEX: "/animations/list",
       ENTER_EXIT: "/animations/list/enter-exit",
+      REORDER: "/animations/list/reorder",
     },
   },
 };
