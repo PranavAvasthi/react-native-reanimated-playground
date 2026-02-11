@@ -11,6 +11,7 @@ export default function AdvancedLayout() {
       <Stack.Screen name="cross-component-sync" />
       <Stack.Screen name="gesture-velocity-prediction" />
       <Stack.Screen name="use-animated-reaction" />
+      <Stack.Screen name="animation-controller-hook" />
     </Stack>
   );
 }

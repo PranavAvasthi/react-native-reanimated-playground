@@ -47,6 +47,12 @@ const DEMOS = [
     description: "React to shared value changes on UI thread",
     path: ROUTES.ANIMATIONS.ADVANCED.USE_ANIMATED_REACTION,
   },
+  {
+    id: "animation-controller-hook",
+    title: "Animation Controller Hook",
+    description: "Reusable play/pause/seek controller",
+    path: ROUTES.ANIMATIONS.ADVANCED.ANIMATION_CONTROLLER_HOOK,
+  },
 ];
 
 export default function AdvancedScreen() {

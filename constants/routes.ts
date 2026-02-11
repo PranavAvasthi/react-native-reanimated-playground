@@ -96,6 +96,8 @@ export const ROUTES = {
       GESTURE_VELOCITY_PREDICTION:
         "/animations/advanced/gesture-velocity-prediction",
       USE_ANIMATED_REACTION: "/animations/advanced/use-animated-reaction",
+      ANIMATION_CONTROLLER_HOOK:
+        "/animations/advanced/animation-controller-hook",
     },
   },
 };
