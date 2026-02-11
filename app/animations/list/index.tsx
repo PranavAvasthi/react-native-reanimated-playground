@@ -23,6 +23,12 @@ const DEMOS = [
     description: "Swipe row to reveal delete action",
     path: ROUTES.ANIMATIONS.LIST.SWIPE_TO_DELETE,
   },
+  {
+    id: "animated-flat-list",
+    title: "Animated FlatList",
+    description: "Animated.FlatList with item animations",
+    path: ROUTES.ANIMATIONS.LIST.ANIMATED_FLAT_LIST,
+  },
 ];
 
 export default function ListScreen() {
